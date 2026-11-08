@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingStart="120dp"
+        android:paddingTop="40dp"
+        android:paddingEnd="120dp"
+        android:paddingBottom="40dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/settings"
+            android:textColor="#FFFFFF"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="#CCFFFFFF"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btn_default"
+            style="@style/SettingsButton"
+            android:text="@string/btn_make_default" />
+
+        <Button
+            android:id="@+id/btn_system"
+            style="@style/SettingsButton"
+            android:text="@string/btn_android_settings" />
+
+        <Button
+            android:id="@+id/btn_wifi"
+            style="@style/SettingsButton"
+            android:text="@string/btn_wifi" />
+
+        <Button
+            android:id="@+id/btn_background"
+            style="@style/SettingsButton"
+            android:text="@string/btn_background" />
+
+        <Button
+            android:id="@+id/btn_columns"
+            style="@style/SettingsButton" />
+
+        <Button
+            android:id="@+id/btn_hidden"
+            style="@style/SettingsButton"
+            android:text="@string/btn_hidden" />
+
+        <TextView
+            android:id="@+id/version"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textColor="#99FFFFFF"
+            android:textSize="14sp" />
+    </LinearLayout>
+</ScrollView>

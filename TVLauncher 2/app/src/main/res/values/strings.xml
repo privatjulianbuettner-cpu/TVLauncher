@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TV Launcher</string>
+    <string name="favorites">Favoriten</string>
+    <string name="all_apps">Alle Apps</string>
+    <string name="settings">Einstellungen</string>
+
+    <string name="menu_open">Öffnen</string>
+    <string name="menu_fav">Zu Favoriten hinzufügen</string>
+    <string name="menu_unfav">Aus Favoriten entfernen</string>
+    <string name="menu_info">App-Info</string>
+    <string name="menu_hide">Ausblenden</string>
+    <string name="menu_uninstall">Deinstallieren</string>
+
+    <string name="btn_make_default">Als Standard-Launcher festlegen</string>
+    <string name="btn_android_settings">Android-Systemeinstellungen</string>
+    <string name="btn_wifi">WLAN / Netzwerk</string>
+    <string name="btn_background">Hintergrund wechseln</string>
+    <string name="btn_columns">Spalten: %1$d</string>
+    <string name="btn_hidden">Ausgeblendete Apps verwalten</string>
+
+    <string name="status_active">Status: Dieser Launcher ist aktiv</string>
+    <string name="status_inactive">Status: Dieser Launcher ist nicht Standard</string>
+    <string name="about_version">TV Launcher, Version %1$s</string>
+
+    <string name="hint_default_manual">Bitte wähle TV Launcher in den Home-Einstellungen deines Geräts aus.</string>
+    <string name="error_launch">App konnte nicht gestartet werden</string>
+    <string name="error_generic">Aktion auf diesem Gerät nicht verfügbar</string>
+</resources>
